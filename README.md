@@ -1,1 +1,1 @@
-# Earnix-Assignment-
+# Earnix-Assignment
