@@ -5,6 +5,7 @@ variable "instances" {
     ami_id             = string
     instance_type      = string
     subnet_id          = string
+    key_name           = string
     security_group_ids = list(string)
   }))
 }

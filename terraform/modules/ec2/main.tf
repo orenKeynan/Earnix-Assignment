@@ -6,7 +6,7 @@ resource "aws_instance" "this" {
   subnet_id              = each.value.subnet_id
   vpc_security_group_ids = each.value.security_group_ids
   associate_public_ip_address = true
-
+  key_name = each.value.key_name
   tags = {
     Name = each.value.name
   }
